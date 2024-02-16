@@ -1,0 +1,230 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #333;
+    background-color: #fff;
+    padding: 10px 20px;
+    transition: top 0.3s;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+  }
+
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-right: 10px;
+}
+
+.nav-links li a {
+color: #333;
+text-decoration: none;
+font-size: 20px;
+font-weight: bold;
+margin: 5px 25px;
+}
+
+.logo a {
+color: #fff;
+font-size: 1.5rem;
+text-decoration: none;
+}
+
+/* .navbar.fixed {
+  
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+  z-index: 1000;
+} */
+.nav-links a svg {
+  vertical-align: middle;
+  font-size: 1.5rem;
+}
+/* name */
+.website-name {
+  font-size: 30px;
+  font-weight: bold;
+  color: #333;
+  text-decoration: none;
+}
+
+/* COnatct page css */
+/* Contact.css */
+.contact-container {
+  max-width: 800px;
+  margin: 0 auto; /* Center horizontally */
+  padding: 20px;
+  text-align: center; /* Center text */
+}
+
+.owner-info {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: left; /* Align text to the left within container */
+}
+
+.owner-info h3 {
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+
+.owner-info p {
+  margin-bottom: 0;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.owner-info a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.owner-info a:hover {
+  text-decoration: underline;
+}
+
+
+/* SignUp.css */
+.signup-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.signup-container h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+
+.signup-form {
+  text-align: left;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.signup-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.signup-button:hover {
+  background-color: #0056b3;
+}
+
+
+/* SignIn.css */
+.signin-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.signin-container h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+
+.signin-form {
+  text-align: left;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.signin-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.signin-button:hover {
+  background-color: #0056b3;
+}
+/* cart */
+/* Cart.css */
+.cart-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.cart-items {
+  margin-top: 20px;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
+
+.item-controls button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.item-quantity {
+  margin: 0 5px;
+}
